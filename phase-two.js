@@ -50,7 +50,7 @@ try {
   console.log(megaverse.toString());
 
   // await clearMap();
-  // await persistMegaverse(megaverse);
+  await persistMegaverse(megaverse);
 
   console.log("Megaverse created and persisted successfully!");
 } catch (e) {
